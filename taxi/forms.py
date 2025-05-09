@@ -61,5 +61,5 @@ class CarSearchForm(forms.Form):
 
 
 class ManufacturerSearchForm(forms.Form):
-    model = forms.CharField()
+    name = forms.CharField()
 
